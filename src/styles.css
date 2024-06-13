@@ -1,0 +1,35 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+      }
+      
+      .task-list {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	width: 50%;
+      }
+      
+      .task-list ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+      }
+      
+      .task-list li {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+      }
+      
+      .task-list li:last-child {
+	border-bottom: none;
+      }
+      
+      /* Responsive design */
+      
+      @media only screen and (max-width: 600px) {
+	.task-list {
+	  width: 90%;
+	}
+      }
